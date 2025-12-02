@@ -1,44 +1,33 @@
-Here’s the updated README with the full merged description embedded:
+CodeConductor MCP
 
----
+CodeConductor MCP bundle for Claude Desktop. Install the .mcpb to auto-register the orchestrator and enable rich IDE-aware operations — including file access, code navigation, and basic git functionality.
+When licensed, unlocks advanced Pro-level tools such as file diffing, command execution, and extended git support (e.g., push, stage).
 
-# **CodeConductor MCP**
+What It Does
 
-CodeConductor MCP bundle for Claude Desktop. Install the `.mcpb` to **auto-register the orchestrator** and enable rich IDE-aware operations — including file access, code navigation, and git tooling. When licensed, unlocks **Pro-level features** like stash, file diff, and command execution.
+The CodeConductor MCP server powers Claude Desktop’s IDE orchestration layer, exposing 24 tools across key domains:
 
-## What It Does
+Code Intelligence – symbol lookup, context inspection, and navigation
+File Operations – open, read, write, append, search, and diff
+Git Integration – status, log, commit, branch, push, and stage (Pro only)
+Command Tools – shell-style command execution, environment inspection, and session reset (Pro only)
 
-The **CodeConductor MCP server** powers Claude Desktop’s IDE orchestration layer, exposing **24 tools** for:
+Tool access is secured by tier (Free or Pro).
 
-*   **Code Intelligence** – symbol/context lookup, navigation
-*   **File Operations** – open, read, write, append, search, diff
-*   **Git Integration** – status, log, commit, stash, branch, etc.
-*   **Command Tools** – terminal-style commands, env info, reset
+Download
 
-All tools are secured with tier enforcement (Free vs Pro), and work offline via signed license files.
+Latest bundle: codeconductor-1.0.0.mcpb
 
----
+Install in Claude Desktop
 
-## Download
+Open Claude Desktop → Settings → Extensions
 
-* Latest bundle: `codeconductor-1.0.0.mcpb`
+Click "Install Extension"
 
----
+Select codeconductor-1.0.0.mcpb from your files
 
-## Install in Claude Desktop
+The orchestrator will register automatically and become available in Claude’s tool list.
 
-1. Open **Claude Desktop → Settings → Extensions**
-2. Click **“Install Extension”**
-3. Choose `codeconductor-1.0.0.mcpb` from your files
-
-The orchestrator will register automatically.
-
----
-
-## License
+License
 
 MIT
-
----
-
-Let me know if you want to include version notes, screenshots, or usage examples.
